@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #212121;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+
+.detail{
+    height: 65vh;
+    width: .5vw;
+    background: #FFC107;
+}
+
+.hero{
+    background: #171717;
+    z-index: 102;
+    margin-top: 10vh;
+    color: whitesmoke;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    width: 50%;
+    margin: 2vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main{
+    height: 80%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.summary-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.options-galery{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.envio-galery{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.final-purchase{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.summary-right{
+    background: #212121;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.first-info{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.info-part-one,.info-part-two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.contenedores-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.second-info{
+    margin-left: 5%;
+    height: 40%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 100%;
+    background: #212121;
+    color: whitesmoke;
+    /*
+    background: whitesmoke;
+    color: #212121;
+    */
+}
+
+.list-group{
+    background: #212121;
+}
+.list-group-item{
+    margin: 1vh;
+    background: #212121;
+    color: whitesmoke;
+}
+
+@media (max-width: 1400px){
+    .summary-left{
+        width: 60%;
+    }
+    .final-purchase{
+        justify-content: center;
+    }
+    .summary-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-part-one,.info-part-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .second-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+    .alert{
+        height: max-content;
+        width: 85%;
+    }
+}
+
+@media(max-width: 1000px){
+    .detail{
+        display: none;
+    }
+    .hero{
+        margin: 0vh;
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        background: #171717;
+    }
+
+}
+
+@media(max-width:800px){    
+
+    .first-info{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .second-info{
+        padding-top: 5vh;
+    }
+
+    .contenedores-info{
+        width: 90%;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .title{ width: 100%; }
+    .options-galery{
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        width: 100%;
+    }
+    .card{ margin: 2vh; }
+    .summary-left{ width: 90%; }
+    .summary-right{ width: 80%; }
+    .final-purchase{ margin-top: 4vh; margin-bottom: 4vh; }
+
+}
+
+@media(max-width:500px){
+    .options-galery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .options-galery a{ margin: 2vh;}
+}
