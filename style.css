@@ -13,8 +13,12 @@ body{
 
 button{ margin-top: 1vh; }
 h1,h3{ color: whitesmoke; }
-.btn:hover{ background: #F1B121; }
 
+
+#redirect_commerce:hover{
+    background: #FFC107;
+    color: #171717;
+}
 
 
 /*Section HERO -> Inicio de la página*/
@@ -75,6 +79,22 @@ h1,h3{ color: whitesmoke; }
     width: 80vh;
     transform: rotate(-35deg);
 }
+
+#redirect_commerce{
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    line-height: 15vh;
+    font-size: 5vh;
+    background: #171717;
+};
+
+#redirect_commerce:hover{
+    background: #FFC107;
+    color: #171717;
+}
+
+
 
 
 /*Section ABOUT-US -> Carrusel de imagenes*/
@@ -204,6 +224,7 @@ h1,h3{ color: whitesmoke; }
     }
 
     .contact{ height: 700px; }
+
 
     .info{
         height: 50vh;

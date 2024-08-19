@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "productName": "Vaso Diego Maradona",
+      "productDescription": "Vasos con grabado Diego Maradona mundial 86. Pack x12",
+      "productPrice": "100",
+      "productImageSRC": "../bin/vaso-diego.png",
+      "productType": "Ceramica"
+    },
+    {
+        "id": 2,
+        "productName": "Engranajes aluminio",
+        "productDescription": "Juego set de 12 engranajes escala MM Aluminio, resistenes a la corroción.",
+        "productPrice": "200",
+        "productImageSRC": "../bin/Engranajes-aluminio.png",
+        "productType": "Aluminio"
+    },
+    {
+        "id": 3,
+        "productName": "Decoración pájaro",
+        "productDescription": "Decoración para pared grabado de madera pájaro sobre el pasto.",
+        "productPrice": "300",
+        "productImageSRC": "../bin/pajaro-madera.webp",
+        "productType": "Madera"
+    },
+    {
+        "id": 4,
+        "productName": "Rick y Morty",
+        "productDescription": "Grabado sobre madera hexagonal de Rick y Morty.",
+        "productPrice": "400",
+        "productImageSRC": "../bin/rickymorty.jpg",
+        "productType": "Madera"
+    },
+    {
+        "id": 5,
+        "productName": "Vasos de vidrio",
+        "productDescription": "Vasos de vidrio con grabado.",
+        "productPrice": "500",
+        "productImageSRC": "../bin/vaso-de-vidrio-grabado-laser.jpg",
+        "productType": "Vidrio"
+    },
+    {
+        "id": 6,
+        "productName": "Grabado plástico",
+        "productDescription": "Escritura codigo de barras sobre plástico. Codigo decorativo.",
+        "productPrice": "600",
+        "productImageSRC": "../bin/grabado-plastico-codigo.png",
+        "productType": "Plastico"
+    }
+]
