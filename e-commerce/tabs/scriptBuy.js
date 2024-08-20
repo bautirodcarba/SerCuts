@@ -1,4 +1,15 @@
 var contador = 0;
+let sum = 0;
+let value = localStorage.getItem("buyPrice");
+let priceArray = JSON.stringify(value).replace('"',"").replace('"',"").split(",");
+priceArray.forEach(element => { sum = sum+parseInt(element); });
+console.log(sum);
+let priceContainer = document.getElementById("alert-precio");
+priceContainer.textContent = "Vas a pagar ARS$"+sum+" en tu producto/s.";
+
+
+
+
 
 function transformCash(){
     var infoText = document.getElementById("remove");
