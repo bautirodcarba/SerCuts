@@ -7,10 +7,6 @@ console.log(sum);
 let priceContainer = document.getElementById("alert-precio");
 priceContainer.textContent = "Vas a pagar ARS$"+sum+" en tu producto/s.";
 
-
-
-
-
 function transformCash(){
     var infoText = document.getElementById("remove");
     infoText.style.display = "none";
@@ -33,6 +29,19 @@ function transformTransfer(){
     document.getElementById("alert-envio").replaceWith(element);
     element.setAttribute("id","alert-envio");
 };
-
-
 // falta añadir un sistema de recolección de los datos -> Utiliar API? ver bootcamp. API REST o algo así.
+
+
+
+function showHide(){
+    const notification = document.getElementById("success-notification");
+    const blurr = document.getElementById("blur");
+    if(notification.style.visibility == "hidden"){
+        notification.style.visibility = "visible";
+        blurr.style.visibility = "visible";
+    }else{
+        notification.style.visibility = "hidden";
+        blurr.style.visibility = "hidden";
+    };
+
+}

@@ -137,7 +137,7 @@ li{ margin: 1vh; }
     .text h4{
         font-size: 3vh;
     }
-    .text p{ display: none;}
+    
 }
 
 @media(max-width:1700px){
@@ -238,13 +238,11 @@ li{ margin: 1vh; }
 
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     .categorias{
         display: none;
     }
-    #buscar-producto-button{
-        display: none;
-    }
+    
     .text{
         display: flex;
         flex-direction: column;

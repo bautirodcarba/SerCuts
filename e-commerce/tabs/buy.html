@@ -13,10 +13,19 @@
     <div class="detail rounded"></div>
     
     <main class="hero">
+
         <section class="title rounded">
             <h1>Detalles de pago</h1>
         </section>
+
         <section class="main rounded">
+            <!--Cuando se finaliza el exito-->
+            <div id="blur"></div>
+            <div id="success-notification" class="appear rounded" >
+              <h1>¡Compra realizada con exito!</h1>
+              <img src="/bin/Check.png" height="100px" width="100px" alt="Compra-confirmada">
+              <small>Ante cualquier problema consultar a través de nuestros portales.</small>
+            </div>
 
           <!--Información general -> PARTE IZQUIERDA-->
             <div class="summary-left">
@@ -62,7 +71,7 @@
                 </div>
                 <div class="final-purchase">
                     <a class="btn btn-lg btn-secondary" href="../commerce.html" id="">Volver a la tienda</a>
-                    <a class="btn btn-lg btn-success" href="../tabs/buy.html" id="">Finalizar Compra</a>
+                    <a class="btn btn-lg btn-success" onclick="showHide()">Finalizar Compra</a>
                 </div>
             </div>
 
@@ -116,5 +125,8 @@
     </main>
     <div class="detail rounded"></div>
     <script src="scriptBuy.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="medium_post_component.js"></script>
 </body>
 </html>
