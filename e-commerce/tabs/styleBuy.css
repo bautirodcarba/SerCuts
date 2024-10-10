@@ -162,9 +162,9 @@ body{
 
 #blur{
     visibility: hidden;
-    display: inline;
-    position: absolute;
-    height: 100%;
+    display: flex;
+    position:absolute;
+    height: 300vh;
     width: 100%;
     top: 0px;
     left: 0px;

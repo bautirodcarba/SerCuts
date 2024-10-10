@@ -32,7 +32,6 @@ function transformTransfer(){
 // falta añadir un sistema de recolección de los datos -> Utiliar API? ver bootcamp. API REST o algo así.
 
 
-
 function showHide(){
     const notification = document.getElementById("success-notification");
     const blurr = document.getElementById("blur");
